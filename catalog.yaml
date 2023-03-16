@@ -1,0 +1,8 @@
+name: mriganka-operators
+repo: quay.io/mpaulgreen/mrigankacatalog
+tag: v0.0.1
+references:
+- name: mysql-operator
+  image: quay.io/mpaulgreen/mysql-operator-catalog:v0.0.2
+- name: visitorapp
+  image: quay.io/mpaulgreen/visitorapp-catalog:v0.0.1
